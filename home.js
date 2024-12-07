@@ -43,7 +43,6 @@ setSlider(); // Set the initial active item
 setDiameter(); // Set the diameter initially
 window.addEventListener('resize', setDiameter); // Update diameter on resize
 
-
 document.addEventListener("DOMContentLoaded", function() {
     const items = document.querySelectorAll('.items');
     items.forEach((items, index) => {
